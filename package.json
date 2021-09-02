@@ -1,0 +1,16 @@
+{
+  "name": "khchoicemaker",
+  "version": "1.0.0",
+  "description": "Un motor para crear juegos basados en toma de decisiones",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . khchoosermaker.exe --platform=win32 --arch=x64 --icon=icon.ico --overwrite"
+  },
+  "author": "B0vE",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.2.3",
+    "electron-packager": "^15.3.0"
+  }
+}

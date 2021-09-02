@@ -1,0 +1,44 @@
+{
+	"titulo": "KH Prueba",
+	"inicial": "Entrada",
+	"resolucion": {
+		"ancho": 1280,
+		"alto": 720
+	},
+	"debug": true,
+	"tramos": [
+		{
+			"id": "Entrada",
+			"video": "1.mp4",
+			"opciones": [
+				{
+					"texto": "Meter el boleto en el sombrero verde",
+					"siguiente": "Final 1"
+				},
+				{
+					"texto": "Tirar el boleto a la basura",
+					"siguiente": "Final 2"
+				},
+				{
+					"texto": "Ir al metro a mendigar likes",
+					"siguiente": "Final 3"
+				}
+			],
+			"sonido": "espera1.mp3",
+			"default": "Final 1"
+		},
+		{
+			"id": "Final 1",
+			"video": "2a.mp4"
+		},
+		{
+			"id": "Final 2",
+			"video": "2b.mp4"
+		},
+		{
+			"id": "Final 3",
+			"video": "2c.mp4",
+			"default": "Entrada"
+		}
+	]
+}

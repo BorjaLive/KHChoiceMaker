@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>KH Choice Maker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .blur{
+            -webkit-filter: blur(20px);
+            filter: blur(20px);
+        }
+    </style>
+</head>
+
+<body style="overflow: hidden;margin: 0;background-color: black;font-family: 'Roboto', sans-serif;">
+    <audio id="audio" loop></audio>
+    <video id="video" style="width: 100%;height: 100%;position: absolute;"></video>
+    <div style="height: 100%;width: 100%;position: absolute;z-index: 1000000;" id="choseLayer">
+        <div style="height: 20%;display: flex;align-items: flex-end;justify-content: center;">
+            <div style="background-color: white;height: 10%;" id="timerA"></div>
+        </div>
+        <div style="height:60%;color: white;display: flex;align-items: center;justify-content: center;flex-direction: column;" id="choisesDiv">
+
+        </div>
+        <div style="height: 20%;display: flex;align-items: flex-start;justify-content: center;">
+            <div style="background-color: white;height: 10%;" id="timerB"></div>
+        </div>
+    </div>
+</body>
+
+</html>
